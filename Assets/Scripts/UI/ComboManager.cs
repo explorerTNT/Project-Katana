@@ -10,7 +10,7 @@ public class ComboManager : MonoBehaviour
 
     void Update()
     {
-        if (Time.time - lastHitTime > comboTimer)
+        if (Time.unscaledTime - lastHitTime > comboTimer)
         {
             combo = 0;
             UpdateComboUI();
@@ -20,7 +20,7 @@ public class ComboManager : MonoBehaviour
     public void RegisterHit()
     {
         combo++;
-        lastHitTime = Time.time;
+        lastHitTime = Time.unscaledTime;
         UpdateComboUI();
     }
 

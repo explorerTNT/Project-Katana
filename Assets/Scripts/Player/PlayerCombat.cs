@@ -8,10 +8,12 @@ public class PlayerCombat : MonoBehaviour
 
     private InputHandler input;
     private float lastShotTime;
+    private ComboManager comboManager;
 
     void Start()
     {
         input = FindObjectOfType<InputHandler>();
+        comboManager = FindObjectOfType<ComboManager>();
     }
 
     void Update()
@@ -23,13 +25,22 @@ public class PlayerCombat : MonoBehaviour
         }
 
         if (input.MeleePressed)
+        {
             Melee();
+        }
     }
 
     void Shoot()
     {
         Instantiate(bulletPrefab, shootPoint.position, shootPoint.rotation);
-        TimeManager.Instance.SlowTime(0.3f, 1f);
+        if (TimeManager.Instance != null)
+        {
+            TimeManager.Instance.SlowTime(0.3f, 1f);
+        }
+        else
+        {
+            Debug.LogWarning("TimeManager.Instance is null");
+        }
     }
 
     void Melee()
@@ -43,7 +54,11 @@ public class PlayerCombat : MonoBehaviour
                 if (enemy != null)
                 {
                     enemy.TakeDamage(30f); // Урон от ближней атаки
-                    FindObjectOfType<ComboManager>().RegisterHit();
+                    if (comboManager != null)
+                    {
+                        comboManager.RegisterHit(); // Регистрируем комбо
+                        Debug.Log("Melee hit, combo increased");
+                    }
                 }
             }
         }

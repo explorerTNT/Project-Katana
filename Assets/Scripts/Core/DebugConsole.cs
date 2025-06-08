@@ -22,7 +22,7 @@ public class DebugConsole : MonoBehaviour
     void Update()
     {
         // Обновляем deltaTime для расчёта FPS (сглаживание)
-        deltaTime += (Time.deltaTime - deltaTime) * 0.1f;
+        deltaTime += (Time.unscaledDeltaTime - deltaTime) * 0.1f;
     }
 
     private void ToggleConsole(string source)
@@ -146,7 +146,7 @@ public class DebugConsole : MonoBehaviour
                 PlayerMovement player = FindObjectOfType<PlayerMovement>();
                 if (player != null)
                 {
-                    player.walkSpeed = newSpeed;
+                    player.WalkSpeed = newSpeed; // Используем свойство WalkSpeed
                     Log($"Player walk speed set to {newSpeed}.");
                 }
                 else

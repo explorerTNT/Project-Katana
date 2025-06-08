@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|c:\\users\\mainpc\\project katana\\assets\\scripts\\core\\debugconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\debugconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|c:\\users\\mainpc\\project katana\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\core\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\enemies\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\ui\\combomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +19,28 @@
       "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\player\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|c:\\users\\mainpc\\project katana\\assets\\scripts\\player\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\core\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\weapons\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\core\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\core\\debugconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\debugconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|C:\\Users\\MainPC\\Project Katana\\assets\\scripts\\core\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3661B3FD-C39C-E3EE-23FC-8A8468776067}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,36 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Enemies\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpawner.cs",
+              "ToolTip": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Enemies\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T11:24:36.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DebugConsole.cs",
               "DocumentMoniker": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Core\\DebugConsole.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\DebugConsole.cs",
               "ToolTip": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Core\\DebugConsole.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\DebugConsole.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAowOIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T11:22:49.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Core\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\CameraController.cs",
               "ToolTip": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Core\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\CameraController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwDEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T10:55:15.407Z"
+              "WhenOpened": "2025-05-11T10:55:15.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ComboManager.cs",
               "DocumentMoniker": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\UI\\ComboManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ComboManager.cs",
@@ -83,11 +101,12 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\ComboManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T09:20:01.468Z"
+              "WhenOpened": "2025-05-11T09:20:01.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "TimeManager.cs",
               "DocumentMoniker": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Core\\TimeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\TimeManager.cs",
@@ -95,7 +114,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Core\\TimeManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T09:19:22.499Z"
+              "WhenOpened": "2025-05-11T09:19:22.499Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -105,14 +125,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Enemy.cs",
               "ToolTip": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Enemies\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Enemy.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwCYAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T09:18:45.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Weapons\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\Bullet.cs",
@@ -120,41 +140,44 @@
               "RelativeToolTip": "Assets\\Scripts\\Weapons\\Bullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T09:17:59.873Z"
+              "WhenOpened": "2025-05-11T09:17:59.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "PlayerCombat.cs",
               "DocumentMoniker": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Player\\PlayerCombat.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCombat.cs",
               "ToolTip": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Player\\PlayerCombat.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAzwBoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwDIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T09:16:55.39Z"
+              "WhenOpened": "2025-05-11T09:16:55.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "InputHandler.cs",
               "DocumentMoniker": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Core\\InputHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\InputHandler.cs",
               "ToolTip": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Core\\InputHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\InputHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T09:13:08.902Z"
+              "WhenOpened": "2025-05-11T09:13:08.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\MainPC\\Project Katana\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwGUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T09:16:00.226Z",
               "EditorCaption": ""

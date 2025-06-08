@@ -2,32 +2,53 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform player; // Ссылка на трансформ игрока
-    public Vector3 normalOffset = new Vector3(0, 2, -5); // Обычное положение камеры
-    public Vector3 aimOffset = new Vector3(0.5f, 1.5f, -1); // Положение в режиме прицеливания
-    public float transitionSpeed = 10f; // Скорость перехода камеры
-    public float mouseSensitivity = 100f; // Чувствительность мыши
-    public float verticalRotationLimit = 80f; // Ограничение вертикального вращения
+    [SerializeField] private Transform player; // Ссылка на трансформ игрока
+    [SerializeField] private Vector3 normalOffset = new Vector3(0, 5, -7); // Обычное положение камеры
+    [SerializeField] private Vector3 aimOffset = new Vector3(0.5f, 4f, 3); // Положение в режиме прицеливания
+    [SerializeField] private float transitionSpeed = 10f; // Скорость перехода камеры
+    [SerializeField] private float mouseSensitivity = 100f; // Чувствительность мыши
+    [SerializeField] private float verticalRotationLimit = 60f; // Ограничение вертикального вращения
 
-    private float yaw = 0f;  // Горизонтальный угол
-    private float pitch = 0f; // Вертикальный угол
+    private float yaw; // Горизонтальный угол
+    private float pitch; // Вертикальный угол
     private bool isAiming;
     private InputHandler input;
+
+    // Публичное свойство для доступа к направлению камеры
+    public Vector3 ForwardDirection => transform.forward;
 
     void Start()
     {
         input = FindObjectOfType<InputHandler>();
+        if (input == null)
+        {
+            Debug.LogError("InputHandler not found in scene. Please ensure an active object with InputHandler component exists.");
+        }
+
+        if (player == null)
+        {
+            Debug.LogError("Player Transform not assigned in CameraController. Please assign the player's Transform in the Inspector.");
+        }
+
         Cursor.lockState = CursorLockMode.Locked; // Блокировка курсора
     }
 
     void LateUpdate()
     {
-        isAiming = input.IsAiming; // Проверка, удерживает ли игрок ПКМ
+        if (input == null || player == null)
+        {
+            return; // Прерываем, чтобы избежать ошибок
+        }
+
+        isAiming = input.IsAiming; // Проверка, удерживает ли ПКМ
 
         // Обновление углов на основе ввода мыши
         yaw += Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         pitch -= Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
         pitch = Mathf.Clamp(pitch, -verticalRotationLimit, verticalRotationLimit);
+
+        // Поворачиваем игрока по горизонтали в соответствии с yaw
+        player.rotation = Quaternion.Euler(0, yaw, 0);
 
         // Вычисление целевой позиции камеры
         Vector3 offset = isAiming ? aimOffset : normalOffset;
@@ -44,7 +65,7 @@ public class CameraController : MonoBehaviour
         }
         else
         {
-            transform.LookAt(player.position);
+            transform.rotation = Quaternion.Euler(pitch, yaw, 0);
         }
     }
 }
